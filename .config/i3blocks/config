@@ -38,9 +38,10 @@ markup=none
 [volume]
 label= 
 command=$SCRIPT_DIR/volume/volume
-interval=once
-signal=1
+interval=1
+signal=10
 #STEP=5%
+MIXER=default
 
 [volume-pipewire]
 #command=$SCRIPT_DIR/volume-pipewire/volume_pipewire
